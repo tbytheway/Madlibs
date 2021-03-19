@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Madlibform from './madlib_form';
+import { Button } from 'reactstrap';
 
 
 export default class App extends Component {
@@ -8,7 +9,7 @@ export default class App extends Component {
       <div>
         <div className="backgroundSkew">
           <div className="madlib-heading">
-            <h1>Bottega Mad Libs</h1>  
+            <h1>Terry's Mad Libs</h1>  
             <div className="madlib-subheading">
               Fill out the fields below and click the generate button<br/>to see the Mad Lib story.
             </div>
